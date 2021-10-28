@@ -3,8 +3,7 @@
 // eg. [1, 2, 3, 4, 5] -> [1, 3, 5]
 
 export const odd = (xs) => {
-	// Your code here...
-	return []
+	return xs.filter((x) => x % 2 === 1);
 }
 
 const tests = [
