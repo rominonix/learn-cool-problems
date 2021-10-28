@@ -2,7 +2,7 @@ import assert from "assert";
 import { even } from "./even.js";
 
 describe("even", () => {
-  it("should return [2, 4] when the function has [1, 2, 3, 4, 5] as argument ", () =>
+  it("should return [2, 4] when the function has [1, 2, 3, 4, 5] as argument", () =>
     assert.deepEqual(even([1, 2, 3, 4, 5]), [2, 4]));
 
   it("should return [2, 4, 6] when the function has [2, 4, 6] as argument", () =>
