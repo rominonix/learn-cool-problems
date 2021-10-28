@@ -24,4 +24,3 @@ jobs:
       - name: Install dependencies and test
         run: npm install -g mocha
       - run: npm run test-ci
-      - run: npm run test
