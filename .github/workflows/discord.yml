@@ -1,5 +1,7 @@
 name: Discord Message
-on: [push]
+on: 
+  push:
+    branches: [main]
 jobs:
   build:
     name: Build
@@ -9,6 +11,6 @@ jobs:
     - name: send custom message with args
       uses: appleboy/discord-action@master
       with:
-        webhook: ${{ secrets.DISCORD_WEBHOOK }}
+        webhook: https://discord.com/api/webhooks/903691338640396298/8lPW0Gbs1t1hW1QtAhXOBO7U53Y8LrBZnajRb9h-Br4ZmQVLLbdYOE89MEnxYglKY4Dj
         args: The ${{ github.event_name }} event triggered first step.
 
