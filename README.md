@@ -1,6 +1,10 @@
 # Learn about Github Actions
 
-![example workflow](https://github.com/rominonix/learn-cool-problems/actions/workflows/node.js.yml/badge.svg)
+https://rominonix.github.io/learn-cool-problems/
+
+![example workflow](https://github.com/rominonix/learn-cool-problems/actions/workflows/node.js.yml/badge.svg) 
+![example workflow](https://github.com/rominonix/learn-cool-problems/actions/workflows/buildanddeploy.yml/badge.svg)
+
 
 Follow instructions in Lab 3 slides.
 
