@@ -4,7 +4,7 @@
 export const digits = (n) => {
   let numToSeparate = n;
 
-  let toArr = Array.from(String(numToSeparate));
+  let toArr = Array.from(String(numToSeparate), Number);
 
   return toArr;
 };
