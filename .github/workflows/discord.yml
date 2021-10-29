@@ -1,0 +1,20 @@
+name: discord message
+on: [push]
+jobs:
+  linux:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+    - if: ${{ github.repository_owner == 'Rominonix' || github.repository_owner == 'rominonix' }}
+      name: Discord Message
+      uses: appleboy/discord-action@master
+      with:
+        webhook_id: ${{ secrets.WEBHOOK_ID }}
+        webhook_token: ${{ secrets.WEBHOOK_TOKEN }}
+        color: "#48f442"
+        username: "GitHub Bot"
+        message: "A new commit has been pushed."
+
+
+
+
