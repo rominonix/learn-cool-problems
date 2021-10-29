@@ -6,6 +6,8 @@ jobs:
     name: Build
     runs-on: ubuntu-latest
     steps:
+    - if: ${{ github.repository_owner == 'Rominonix' || github.repository_owner == 'rominonix' }}
+
     - uses: actions/checkout@master
     - name: send message
       uses: appleboy/discord-action@master
