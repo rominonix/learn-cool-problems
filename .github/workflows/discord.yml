@@ -12,6 +12,7 @@ jobs:
       with:
         webhook_id: ${{ secrets.WEBHOOK_ID }}
         webhook_token: ${{ secrets.WEBHOOK_TOKEN }}
+        color: "#48f442"
         message: The ${{ github.event_name }} event triggered first step.
 
 
