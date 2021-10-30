@@ -2,10 +2,10 @@ name: discord message
 on: [push]
 jobs:
   build:
-    name: Discord notification
+    name: Discord notification 
     runs-on: ubuntu-latest
     steps:
-      - name: Discord notification
+      - name: Discord notification 🛎️
         env:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
         uses: Ilshidur/action-discord@master
