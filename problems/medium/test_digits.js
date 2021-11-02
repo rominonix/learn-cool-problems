@@ -1,5 +1,5 @@
 import assert from "assert";
-import { digits } from "./digits";
+import { digits } from "./digits.js";
 
 describe("digits", () => {
   it("should return [2, 3, 4, 2] when the function has [2342] as argument ", () =>

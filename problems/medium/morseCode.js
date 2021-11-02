@@ -53,7 +53,6 @@ const morseAlphabet = {
 
 export const morseCode = (s) => {
   let morseArr = []
-  // let toArray = Array.from(s) 
   let characters = s.split('')
   characters.forEach(char => {
     morseArr.push(morseAlphabet[char])
