@@ -53,14 +53,14 @@ const morseAlphabet = {
 
 export const morseCode = (s) => {
   let morseArr = []
-  let characters = s.split('')
+  let characters = s.toString().split('')
 
   characters.forEach(char => {
     morseArr.push(morseAlphabet[char])
   })
 
   let string = morseArr.join(' ')
-  
+  // console.log(string);
 return string
   
 }
