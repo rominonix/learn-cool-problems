@@ -60,7 +60,7 @@ export const morseCode = (s) => {
   })
 
   let string = morseArr.join(' ')
-  // console.log(string);
+
 return string
   
 }
